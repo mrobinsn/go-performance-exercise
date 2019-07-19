@@ -1,0 +1,5 @@
+/attempt
+/attempt-linux
+/cmd/golden*
+/*.profile
+/profile*.svg
