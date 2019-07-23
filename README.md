@@ -98,9 +98,7 @@ Commands to build the `golden-*` and `run` binaries (uses `upx` for reduced bina
 
 ```
 go build -ldflags="-s -w" -o golden-simple ./cmd/golden-simple && \
-upx --brute golden-simple && \
 go build -ldflags="-s -w" -o golden-complicated ./cmd/golden-complicated && \
-upx --brute golden-complicated && \
 go build -ldflags="-s -w" -o run ./cmd/run && \
 upx --brute run
 ```
